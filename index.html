@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>F.I.C.S. Ingénierie — Le Cerveau de vos Salles d'Immersion</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Feuille de style -->
+  <link rel="stylesheet" href="fics-style.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════
+    NAVIGATION FIXE
+═══════════════════════════════════════════════ -->
+<nav>
+  <a href="#" class="nav-logo">
+    <img src="image/logo-FICS.png" alt="Logo F.I.C.S. Ingénierie">
+  </a>
+  <ul class="nav-links">
+    <li><a href="#methode">[ Méthode ]</a></li>
+    <li><a href="#solutions">[ Solutions ]</a></li>
+    <li><a href="#contact" class="nav-cta">Demander un audit</a></li>
+  </ul>
+</nav>
+
+<!-- ═══════════════════════════════════════════════
+    HERO
+═══════════════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-scanline"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge">
+      F.I.C.S. — Fabrication · Informatique · Conception · Systèmes
+    </div>
+
+    <h1 class="hero-title">
+      Le Cerveau de<br>vos Salles<br><span>d'Immersion.</span>
+    </h1>
+
+    <p class="hero-subtitle">
+      Ingénierie électronique et informatique pour Escape Games &amp; Action Games.<br>
+      <strong>Fiabilité industrielle, zéro compromis.</strong>
+    </p>
+
+    <div class="hero-ctas">
+      <a href="#solutions" class="btn-primary">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <polyline points="5 12 19 12"/><polyline points="13 6 19 12 13 18"/>
+        </svg>
+        Voir nos Briques Technologiques
+      </a>
+      <a href="#contact" class="btn-secondary">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+          <path d="M9 17H7A5 5 0 0 1 7 7h2"/><path d="M15 7h2a5 5 0 0 1 0 10h-2"/>
+          <line x1="8" y1="12" x2="16" y2="12"/>
+        </svg>
+        Demander un Audit
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-bg-text" aria-hidden="true">FICS</div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+    BANDEAU TRUST / RÉASSURANCE
+═══════════════════════════════════════════════ -->
+<div id="trust">
+  <div class="trust-inner">
+
+    <div class="trust-item reveal">
+      <div class="trust-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M3 21h18M3 10h18M5 6l7-3 7 3M4 10v11M20 10v11M8 10v11M12 10v11M16 10v11"/>
+        </svg>
+      </div>
+      <div>
+        <div class="trust-label">Origine</div>
+        <div class="trust-value">Conçu en France</div>
+      </div>
+    </div>
+
+    <div class="trust-item reveal reveal-delay-1">
+      <div class="trust-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+        </svg>
+      </div>
+      <div>
+        <div class="trust-label">Sécurité</div>
+        <div class="trust-value">Basse Tension Certifiée ERP</div>
+      </div>
+    </div>
+
+    <div class="trust-item reveal reveal-delay-2">
+      <div class="trust-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+        </svg>
+      </div>
+      <div>
+        <div class="trust-label">Architecture</div>
+        <div class="trust-value">Modules Redondants</div>
+      </div>
+    </div>
+
+    <div class="trust-item reveal reveal-delay-3">
+      <div class="trust-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+        </svg>
+      </div>
+      <div>
+        <div class="trust-label">Engagement</div>
+        <div class="trust-value">Garantie Professionnelle</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════
+    STATISTIQUES
+═══════════════════════════════════════════════ -->
+<div id="stats">
+  <div class="stats-grid">
+
+    <div class="stat-item reveal">
+      <div class="stat-number" data-target="100">0<span>%</span></div>
+      <div class="stat-label">Taux de disponibilité cible</div>
+    </div>
+
+    <div class="stat-item reveal reveal-delay-1">
+      <div class="stat-number" data-target="72">0<span>h</span></div>
+      <div class="stat-label">Réponse intervention max</div>
+    </div>
+
+    <div class="stat-item reveal reveal-delay-2">
+      <div class="stat-number" data-target="3">0<span>x</span></div>
+      <div class="stat-label">Redondance des systèmes critiques</div>
+    </div>
+
+    <div class="stat-item reveal reveal-delay-3">
+      <div class="stat-number" data-target="24">0<span>/7</span></div>
+      <div class="stat-label">Monitoring à distance</div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════
+    LA MÉTHODE F.I.C.S.
+═══════════════════════════════════════════════ -->
+<section id="methode">
+
+  <div class="methode-header reveal">
+    <div class="section-label">// PROCESSUS</div>
+    <h2 class="section-title">
+      La Méthode F.I.C.S.<br>
+      <span style="color:var(--orange)">Le Sur-Mesure Standardisé.</span>
+    </h2>
+    <p class="section-desc">
+      Nous ne bricolons pas. Chaque système que nous livrons repose sur une architecture
+      modulaire éprouvée, puis habillée sur mesure pour votre univers.
+    </p>
+  </div>
+
+  <div class="methode-grid">
+
+    <!-- Étape 1 -->
+    <div class="methode-step reveal">
+      <div class="step-number">// ÉTAPE_01</div>
+      <div class="step-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+      </div>
+      <div class="step-title">Audit &amp; Analyse Système</div>
+      <p class="step-desc">
+        Nous cartographions vos besoins, contraintes ERP, et scénarios de panne avant
+        d'écrire la première ligne de code ou de souder le premier circuit.
+      </p>
+      <div class="step-tags">
+        <span class="step-tag">ERP Compliance</span>
+        <span class="step-tag">Schéma électrique</span>
+        <span class="step-tag">Risk assessment</span>
+      </div>
+    </div>
+
+    <!-- Étape 2 -->
+    <div class="methode-step reveal reveal-delay-1">
+      <div class="step-number">// ÉTAPE_02</div>
+      <div class="step-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <rect x="2" y="3" width="20" height="14" rx="2"/>
+          <path d="M8 21h8M12 17v4"/>
+        </svg>
+      </div>
+      <div class="step-title">Modules Fiabilisés</div>
+      <p class="step-desc">
+        Notre bibliothèque de briques électroniques testées en conditions extrêmes constitue
+        le cœur de chaque installation. Zéro prototypage hasardeux.
+      </p>
+      <div class="step-tags">
+        <span class="step-tag">PCB industriel</span>
+        <span class="step-tag">Firmware OTA</span>
+        <span class="step-tag">Failsafe intégré</span>
+      </div>
+    </div>
+
+    <!-- Étape 3 -->
+    <div class="methode-step reveal reveal-delay-2">
+      <div class="step-number">// ÉTAPE_03</div>
+      <div class="step-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+        </svg>
+      </div>
+      <div class="step-title">Habillage 3D Sur-Mesure</div>
+      <p class="step-desc">
+        L'électronique industrielle disparaît dans des boîtiers conçus en 3D pour correspondre
+        exactement à votre univers visuel et thématique.
+      </p>
+      <div class="step-tags">
+        <span class="step-tag">Impression 3D FDM/SLA</span>
+        <span class="step-tag">Design industriel</span>
+        <span class="step-tag">IP-rated</span>
+      </div>
+    </div>
+
+    <!-- Étape 4 -->
+    <div class="methode-step reveal reveal-delay-3">
+      <div class="step-number">// ÉTAPE_04</div>
+      <div class="step-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+        </svg>
+      </div>
+      <div class="step-title">Monitoring Temps Réel</div>
+      <p class="step-desc">
+        Dashboard centralisé, alertes SMS/email, diagnostic à distance. Nous savons qu'une
+        pièce est en train de lâcher avant vous — et avant vos joueurs.
+      </p>
+      <div class="step-tags">
+        <span class="step-tag">Dashboard cloud</span>
+        <span class="step-tag">Alertes proactives</span>
+        <span class="step-tag">Télémaintenance</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+    NOS SOLUTIONS (CATALOGUE)
+═══════════════════════════════════════════════ -->
+<section id="solutions">
+
+  <div class="solutions-header">
+    <div>
+      <div class="section-label reveal">// CATALOGUE</div>
+      <h2 class="section-title reveal reveal-delay-1">Nos Solutions<br>Technologiques.</h2>
+    </div>
+    <p class="section-desc reveal reveal-delay-2" style="max-width:360px; font-size:14px;">
+      Trois niveaux d'engagement. Du mécanisme autonome au contrat de protection totale.
+    </p>
+  </div>
+
+  <div class="solutions-grid">
+
+    <!-- Niveau 1 : Plug & Play -->
+    <div class="solution-card reveal">
+      <div class="card-badge">Niveau 01</div>
+      <div class="card-level">// NVL_01 — PLUG &amp; PLAY</div>
+      <div class="card-title">Mécanismes<br>Plug &amp; Play</div>
+      <p class="card-desc">
+        Des modules électroniques prêts à l'emploi, conçus pour s'intégrer dans n'importe
+        quelle salle existante. Installation en quelques heures, sans compétence technique requise.
+      </p>
+      <ul class="card-features">
+        <li>Serrures électromagnétiques intelligentes</li>
+        <li>Contrôleurs d'énigmes modulaires</li>
+        <li>Systèmes audio/lumière programmables</li>
+        <li>Interface de configuration web</li>
+        <li>Câblage pré-assemblé</li>
+      </ul>
+      <a href="#contact" class="card-cta">
+        Demander une démo
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="5 12 19 12"/><polyline points="13 6 19 12 13 18"/>
+        </svg>
+      </a>
+    </div>
+
+    <!-- Niveau 2 : Ingénierie complète (featured) -->
+    <div class="solution-card featured reveal reveal-delay-1">
+      <div class="card-badge">Recommandé</div>
+      <div class="card-level">// NVL_02 — INGÉNIERIE TOTALE</div>
+      <div class="card-title">Ingénierie de<br>Salle Complète</div>
+      <p class="card-desc">
+        Nous prenons en charge l'intégralité du système nerveux de votre salle, de la conception
+        électrique à la programmation des scénarios, jusqu'à la mise en service.
+      </p>
+      <ul class="card-features">
+        <li>Architecture électrique complète (schéma + câblage)</li>
+        <li>Développement firmware &amp; logiciel sur-mesure</li>
+        <li>Boîtiers imprimés 3D thématisés</li>
+        <li>Tests en charge (simulation 8h/jour)</li>
+        <li>Formation du personnel</li>
+        <li>Documentation technique complète</li>
+      </ul>
+      <a href="#contact" class="card-cta">
+        Obtenir un devis
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="5 12 19 12"/><polyline points="13 6 19 12 13 18"/>
+        </svg>
+      </a>
+    </div>
+
+    <!-- Niveau 3 : Contrat de maintenance -->
+    <div class="solution-card reveal reveal-delay-2">
+      <div class="card-badge">Niveau 03</div>
+      <div class="card-level">// NVL_03 — CONTRAT MAINTENANCE</div>
+      <div class="card-title">Bouclier<br>Anti-Pannes</div>
+      <p class="card-desc">
+        Le contrat de maintenance préventive et corrective qui garantit la continuité
+        opérationnelle de votre établissement, même le samedi soir à 21h.
+      </p>
+      <ul class="card-features">
+        <li>Monitoring proactif 24h/7j</li>
+        <li>Intervention garantie sous 72h</li>
+        <li>Stock de pièces de rechange dédié</li>
+        <li>Mises à jour firmware incluses</li>
+        <li>Rapport mensuel de diagnostic</li>
+      </ul>
+      <a href="#contact" class="card-cta">
+        Souscrire un contrat
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="5 12 19 12"/><polyline points="13 6 19 12 13 18"/>
+        </svg>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+    CONTACT
+═══════════════════════════════════════════════ -->
+<section id="contact">
+  <div class="section-label reveal">// CONTACT</div>
+  <h2 class="section-title reveal reveal-delay-1">
+    Parlons de<br><span style="color:var(--orange)">votre projet.</span>
+  </h2>
+
+  <div class="contact-wrapper">
+
+    <!-- Informations -->
+    <div class="reveal reveal-delay-1">
+      <p class="section-desc" style="margin-bottom:0;">
+        Audit gratuit, sans engagement. Décrivez votre salle, votre problématique technique
+        ou votre projet et nous revenons vers vous sous 48h ouvrées avec une analyse concrète.
+      </p>
+
+      <div class="contact-info-block">
+
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+          <div>
+            <div class="contact-info-label">Email</div>
+            <div class="contact-info-value">contact@fics-ingenierie.fr</div>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
+          <div>
+            <div class="contact-info-label">Localisation</div>
+            <div class="contact-info-value">France — Intervention nationale</div>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <div>
+            <div class="contact-info-label">Réponse</div>
+            <div class="contact-info-value">Sous 48h ouvrées</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Formulaire -->
+    <div class="reveal reveal-delay-2">
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="nom">Prénom &amp; Nom</label>
+            <input id="nom" type="text" placeholder="Jean Dupont" required>
+          </div>
+          <div class="form-field">
+            <label for="societe">Société</label>
+            <input id="societe" type="text" placeholder="Escape Corp." required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="jean@escapecorp.fr" required>
+          </div>
+          <div class="form-field">
+            <label for="tel">Téléphone</label>
+            <input id="tel" type="tel" placeholder="+33 6 00 00 00 00">
+          </div>
+        </div>
+
+        <div class="form-row" style="border-bottom: 1px solid var(--border);">
+          <div class="form-field full">
+            <label for="besoin">Besoin</label>
+            <select id="besoin">
+              <option value="">Sélectionner un type de projet…</option>
+              <option>Mécanismes Plug &amp; Play</option>
+              <option>Ingénierie de Salle Complète</option>
+              <option>Contrat de Maintenance</option>
+              <option>Audit technique</option>
+              <option>Autre demande</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row" style="border-bottom: none;">
+          <div class="form-field full">
+            <label for="details">Détails du projet</label>
+            <textarea id="details" rows="5"
+              placeholder="Décrivez votre salle, votre problématique ou votre projet
+(nombre de salles, thème, infrastructure existante…)"></textarea>
+          </div>
+        </div>
+
+        <div class="form-submit">
+          <button type="submit">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="22" y1="2" x2="11" y2="13"/>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+            </svg>
+            Envoyer la demande d'audit
+          </button>
+        </div>
+
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+    FOOTER
+═══════════════════════════════════════════════ -->
+<footer>
+  <div class="footer-logo">
+    <img src="data:image/jpeg;base64,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" alt="F.I.C.S. Ingénierie">
+  </div>
+  <div class="footer-legal">
+    <span style="color:var(--border)">F.I.C.S. Ingénierie © 2025</span>
+    &nbsp;·&nbsp;
+    <a href="#">Mentions légales</a>
+    &nbsp;·&nbsp;
+    <a href="#">Politique de confidentialité</a>
+  </div>
+</footer>
+
+<!-- ═══════════════════════════════════════════════
+    BARRE DE DIAGNOSTIC (desktop uniquement)
+═══════════════════════════════════════════════ -->
+<div class="diagnostic-bar">
+  <div class="diag-item">
+    <div class="diag-dot"></div>
+    <span>SYS_STATUS: NOMINAL</span>
+  </div>
+  <div class="diag-item">
+    <div class="diag-dot orange"></div>
+    <span>MODULES: 4/4 ONLINE</span>
+  </div>
+  <div class="diag-item">
+    <span style="color:var(--border)">|</span>
+  </div>
+  <div class="diag-item">
+    <span>UPTIME: 99.97%</span>
+  </div>
+  <div class="diag-spacer"></div>
+  <div class="diag-item">
+    <span>F.I.C.S. INGÉNIERIE — SYSTEM ONLINE</span>
+  </div>
+  <div class="diag-item">
+    <span id="clock" style="color:var(--orange)"></span>
+  </div>
+</div>
+
+<!-- Script principal -->
+<script src="fics-script.js"></script>
+
+</body>
+</html>
